@@ -11,7 +11,7 @@ https://crwn-clthng.herokuapp.com/
 ## technologies used:
 
 The front-end of this app is built with React while the backend uses firebase.
-State is handled through Redux.
+State is handled through Redux and Sagas.
 Test payments are handled through the Stripe API. 
 CSS styling is written with Styled-Components.
 
