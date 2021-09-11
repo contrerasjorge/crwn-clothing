@@ -1,13 +1,13 @@
-import React from 'react';
-import { withRouter } from 'react-router-dom';
+import React from "react";
+import { withRouter } from "react-router-dom";
 
 import {
   MenuItemContainer,
   BackgroundImageContainer,
   ContentContainer,
   ContentTitle,
-  ContentSubtitle
-} from './menu-item.styles';
+  ContentSubtitle,
+} from "./menu-item.styles";
 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
   <MenuItemContainer

@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 
 import {
   ErrorImageOverlay,
   ErrorImageContainer,
-  ErrorImageText
-} from './error-boundary.styles.js';
+  ErrorImageText,
+} from "./error-boundary.styles.js";
 
 class ErrorBoundary extends React.Component {
   constructor() {
     super();
 
     this.state = {
-      hasErrored: false
+      hasErrored: false,
     };
   }
 
